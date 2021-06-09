@@ -3,7 +3,6 @@ Q3. Write a program to check if a number is prime or not. Example: 7 ==> True, 6
 '''
 
 n = int(input("Enter a number: "))
-flag = False
 
 if(n > 1):
     for i in range(2, n):
