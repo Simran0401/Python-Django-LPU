@@ -5,4 +5,4 @@ one hundred natural numbers and the square of the sum.
 
 n = range(1, 101)
 a = sum(n)
-print (a * a - sum(i*i for i in n))
+print (abs(sum(i * i for i in n) - a * a))
